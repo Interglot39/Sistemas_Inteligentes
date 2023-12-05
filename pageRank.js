@@ -7,7 +7,7 @@ function printTable(matrix) { //ZZZZ Thx CHATGPT
       const entry = row.find(entry => entry.name === key);
       return entry ? entry.value.toFixed(6) : '';
     });
-    console.log(index + 1 + "\t\t" + rowValues.join("\t"));
+    console.log(index  + "\t\t" + rowValues.join("\t"));
   });
 }
 
